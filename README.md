@@ -2,6 +2,16 @@
 
 Just a basic turborepo with Nestjs installed.
 
+See other branches for different settings.
+
+### nestjs+nextjs
+
+nestjs & nextjs template
+
+### nestjs+vite
+
+nestjs & vite template
+
 ## Using this example
 
 Run the following command:
@@ -17,8 +27,7 @@ This Turborepo includes the following packages/apps:
 ### Apps and Packages
 
 - `api`: a [Nest.js](https://nestjs.com/) api server
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
+- `web`: a [Vite](https://vitejs.dev/) app with React+TS+SWC
 - `ui`: a stub React component library shared by both `web` and `docs` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
