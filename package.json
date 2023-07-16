@@ -14,5 +14,5 @@
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.15.0",
-  "name": "Meshed_mono"
+  "name": "meshed_mono"
 }
