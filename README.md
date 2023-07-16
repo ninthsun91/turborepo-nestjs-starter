@@ -1,13 +1,23 @@
-# Turborepo starter
+# Turborepo Nestjs starter
 
-This is an official starter Turborepo.
+Just a basic turborepo with Nestjs installed.
+
+See other branches for different settings.
+
+### nestjs+nextjs
+
+nestjs & nextjs template
+
+### nestjs+vite
+
+nestjs & vite template
 
 ## Using this example
 
 Run the following command:
 
 ```sh
-npx create-turbo@latest
+pnpm install
 ```
 
 ## What's inside?
@@ -16,6 +26,7 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
+- `api`: a [Nest.js](https://nestjs.com/) api server
 - `docs`: a [Next.js](https://nextjs.org/) app
 - `web`: another [Next.js](https://nextjs.org/) app
 - `ui`: a stub React component library shared by both `web` and `docs` applications
